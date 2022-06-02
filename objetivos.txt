@@ -1,0 +1,11 @@
+crear elementos
+crear intefaz aceptable
+modificar dichos elementos (prioridad, reogranizar, eliminar, estados, archivar al completar);
+log-in
+
+
+CAMBIAR LA MANERA DE CREAR NUEVOS NODOS, HACERLO POR MEDIO DEL CONSTRUCTOR
+PORDER HACER EL SLIDING MENU CAMBIANDO EL HEADER
+PONERLE SIMBOLIDTOS A CADA TIPO DE ESTADO
+CREAR LA INTERFAZ DEL USUARIO
+CREAR LA INTERFAZ DE LAS MODIFICACIONES

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To-do list</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="listaEstilos.css">
+    <link rel="icon" href="referencias\logo.png">
+</head>
+
+<body id="body">
+    <header id="header">
+        <!-- Menu desplegable -->
+        <div id="menu">
+            <button id="botonMenu" onclick="">Menú</button>
+        </div>
+        <!-- Logo -->
+        <div id="logo" class="contenidoHeader">
+            <img src="referencias\logo.png" id="imgLogo">
+        </div>
+        <!--Titulo-->
+        <div id="tituloHeader" class="contenidoHeader">
+            <h1>Lista</h1>
+        </div>
+        <!-- Estado Usuario -->
+        <div id="estadoUsuario" class="contenidoHeader">
+            <img src="referencias\user-1.png" id="imgUsuario">
+        </div>
+    </header>
+    <br />
+    <br />
+    <center>
+        <div id="textBoxes">
+            <p>Nombre</p>
+            <input type="text" id="tituloActividad" placeholder="Digite el nombre de la actividad">
+            <p>Estado de la actividad</p>
+            <p>Pendiente, En progreso y Completado</p>
+            <input type="number" id="estadoActividad" max="3" min="1" placeholder="Digite un numero del 1 al 3">
+            <p>Prioridad de la actividad</p>
+            <input type="number" id="prioActividad" min="1" max="3" placeholder="Digite un numero del 1 al 3">
+            <button id="confirmarActividad" onclick="confirmarActividad()">Confirmar</button>
+        </div>
+    </center>
+    <main id="main">
+        <br />
+        <div id="listaActividades">
+
+        </div>
+        <br />
+        <div>
+            <hr>
+            <br>
+            <center>
+                <button id="crearActividad" onclick="crearActividad()" > + </button>
+            </center>
+        </div>
+    </main>
+    <script src="app.js" async defer></script>
+</body>
+
+</html>
+
+<!--<form>
+<div id="listaActividades">
+<h1 id="h1">Hola</h1>
+</div>
+<div id="nuevaActividad">
+<input id="texto" type="text">
+<button onclick="addElemento(getElementById('texto').value);" value="+"></button>
+</div>
+</form>-->

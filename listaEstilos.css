@@ -1,0 +1,149 @@
+/* IDs */
+
+/* ENCABEZADO */
+#body {
+    color: white;
+    background-color: #1e006c;
+    font-family: Century Gothic;
+}
+
+#main {
+    display:grid;
+    justify-content: center;
+}
+
+#header {
+    background-color: #4100ec;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.663);
+}
+
+#tituloHeader {
+    justify-content: center;
+    font-size: larger;
+    width: 33%;
+}
+
+#estadoUsuario {
+    height: 100px;
+    justify-content: right;
+    width: 37%;
+    display: flex;
+    align-items: center;
+}
+
+#imgUsuario {
+    height: 65px;
+    width: 65px;
+    padding-right: 20px;
+}
+
+#logo {
+    justify-content: left;
+    height: 80px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+#imgLogo {
+    height: 75px;
+    width: 75px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+#menu {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botonMenu {
+    width: 70px;
+    height: 70px;
+
+    color: white;
+    font-size: larger;
+    font-family: Century Gothic;
+
+    background-color: #4100ec;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+#botonMenu:hover {
+    background-color: white;
+    border: 2px solid #4100ec;
+    color: #4100ec;
+}
+
+/* MAIN */
+#textBoxes {
+    display: none;
+}
+
+#tituloActividad {
+    width: 200px;
+    height: 30px;
+}
+
+#estadoActividad {
+    width: 200px;
+    height: 30px;
+}
+
+#prioActividad {
+    width: 200px;
+    height: 30px;
+}
+
+#confirmarActividad{
+    height: 35px;
+}
+
+#crearActividad{
+    font-size: 28px;
+    border-radius: 12px;
+    width: 600px;
+    height: 60px;
+    background-color: #2d00a899;
+    color:white;
+    border-color: white;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.663);
+}
+
+#crearActividad:hover{
+    background-color: #2d00a8;
+}
+
+/*Clases*/
+
+.contenidoHeader {
+    display: flex;
+}
+
+.prio{
+    justify-content: right;
+}
+
+.actividades{
+    border-radius: 12px;
+    border: white solid 1px;
+    width: 600px;
+    height: 150px;
+    background-color: #2d00a899;
+    color:white;
+    border-color: white;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.663);
+    padding: 5px;
+}
+
+/* Elementos individuales */
+
+hr{
+    background-color: rgba(255, 255, 255, 0.47);
+}
