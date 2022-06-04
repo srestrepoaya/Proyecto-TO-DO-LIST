@@ -67,18 +67,15 @@
     height: 70px;
 
     color: white;
-    font-size: larger;
+    font-size: 50px;
     font-family: Century Gothic;
 
     background-color: #4100ec;
-    border-radius: 8px;
-    border: 2px solid white;
+    border: #4100ec;
 }
 
 #botonMenu:hover {
-    background-color: white;
-    border: 2px solid #4100ec;
-    color: #4100ec;
+    color: rgba(255, 255, 255, 0.719);
 }
 
 /* MAIN */
@@ -124,10 +121,6 @@
 
 .contenidoHeader {
     display: flex;
-}
-
-.prio{
-    justify-content: right;
 }
 
 .actividades{
